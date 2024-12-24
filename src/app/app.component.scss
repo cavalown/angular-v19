@@ -1,0 +1,22 @@
+:root{
+    height: 100%;
+    width: 100%;
+}
+
+mat-toolbar{
+    background-color: #1976d2;
+    color: rgb(255, 255, 255);
+}
+
+mat-sidenav-container{
+    mat-sidenav{
+        width: 220px;
+        border-right: 1px solid #63a5e6;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    mat-sidenav-content{
+        padding: 10px;
+    }
+}
